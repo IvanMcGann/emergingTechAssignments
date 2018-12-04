@@ -22,7 +22,6 @@ def load():
 	global model
 	filename = input("Please enter a HDF5 file to load: ")
 	model = load_model(filename)
-	# DEBUG print(type(model))
 	model.summary()
 
 def construct():
@@ -97,7 +96,7 @@ def save():
 		print("No model found, create or load the model")
 		return
 
-	filename = input("Please enter a filename: ")
+	filename = input("Please enter the name of the model: ")
 	model.save(filename)
 	
 def png_read():
@@ -128,7 +127,7 @@ def png_read():
 choice = True
 while choice:
 	print("""
-	1. Load HDF5 file
+	1. Load Model
 	2. Create a NN model
 	3. Train with MNIST training images
 	4. Test using MNIST testing images
