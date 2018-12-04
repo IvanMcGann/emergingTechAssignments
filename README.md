@@ -1,28 +1,28 @@
 # Emerging Technologies Assignment
 
 ***
-* How to use Python - 
+## How to use Python - 
 
-Install Anaconda:
-1. Visit https://www.anaconda.com/download/
-2. Download the latest version of anaconda and run the exe file.
-3. Read through the boxes and select all applicable values.
-4. Once downloaded it will give you access to many libraries and features including using Jupyter Notebook.
-5. After its installed as a precaution make sure you update all packages using the following input in the command line - conda update --all
-6. That may take some time to install all updates and requires an internet connection.
-7. Not all libraries are installed by default so you may be required to install other libraries.
-8. install the following plugins on Anaconda to run the python script.
+* Install Anaconda:
+1.  Visit https://www.anaconda.com/download/
+2.  Download the latest version of anaconda and run the exe file.
+3.  Read through the boxes and select all applicable values.
+4.  Once downloaded it will give you access to many libraries and features including using Jupyter Notebook.
+5.  After its installed as a precaution make sure you update all packages using the following input in the command line - conda update --all
+6.  That may take some time to install all updates and requires an internet connection.
+7.  Not all libraries are installed by default so you may be required to install other libraries.
+8.  install the following plugins on Anaconda to run the python script.
 	conda install scikit-learn
 	conda install -c anaconda keras
 
 * Run Jupyter Notebook:
-1. Once Anaconda has been successfully installed it gives you access to a web application called Jupyter Notebook.
-2. To run this you enter the designated directory or folder and in the cmd/cmnder console type jupyter notebook and press enter, the application will then open in the default browser.
-3. Being a web app it requires a secure internet connection.
-4. Each notebook is a Python3 file.
-5. Once you chose a file e.g. numpy-random.ipynb all the cells will run automatically, although some may take more time than other.
-6. If you make any alterations you may run into errors that can be as a result of a library import or a prior value not being found, in this circumstances rerun the notebook.
-7. Do this by clicking on the kernel button on the menu and select restart and run all.
+1.  Once Anaconda has been successfully installed it gives you access to a web application called Jupyter Notebook.
+2.  To run this you enter the designated directory or folder and in the cmd/cmnder console type jupyter notebook and press enter, the application will then open in the default browser.
+3.  Being a web app it requires a secure internet connection.
+4.  Each notebook is a Python3 file.
+5.  Once you chose a file e.g. numpy-random.ipynb all the cells will run automatically, although some may take more time than other.
+6.  If you make any alterations you may run into errors that can be as a result of a library import or a prior value not being found, in this circumstances rerun the notebook.
+7.  Do this by clicking on the kernel button on the menu and select restart and run all.
 
 
 * Run Python Script: 
@@ -40,9 +40,9 @@ Install Anaconda:
 12. You can use option 1 to use the previously saved model rather than creating a new one. All models withold the same parameters,
 13. Press option 7 to exit and close the menu
 
-* Links Used:
+## Links Used:
 
-Anaconda:
+* Anaconda:
 
 https://stackoverflow.com/questions/45197777/how-do-i-update-anaconda
 
@@ -53,7 +53,7 @@ https://scikit-learn.org/stable/install.html
 https://www.tutorialspoint.com/index.htm
 
 
-Markdown tips in notebook:
+* Markdown tips in notebook:
 
 https://www.ibm.com/support/knowledgecenter/SSQNUZ_current/com.ibm.icpdata.doc/dsx/markd-jupyter.html
 
@@ -68,7 +68,7 @@ http://csrgxtu.github.io/2015/03/20/Writing-Mathematic-Fomulars-in-Markdown/
 https://stackoverflow.com/questions/32370281/how-to-embed-image-or-picture-in-jupyter-notebook-either-from-a-local-machine-o
 
 
-Notebook tips: 
+* Notebook tips: 
 
 https://en.wikipedia.org/
 
@@ -85,8 +85,7 @@ https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.iloc.htm
 https://www.kaggle.com/jchen2186/machine-learning-with-iris-dataset
 
 
-
-Plot tips:
+* Plot tips:
 
 https://seaborn.pydata.org/generated/seaborn.scatterplot.html
 
@@ -101,7 +100,7 @@ http://pandas.pydata.org/pandas-docs/version/0.13/visualization.html
 https://seaborn.pydata.org/tutorial/color_palettes.html
 
 
-MNIST - Digirec: 
+* MNIST - Digirec: 
 
 http://yann.lecun.com/exdb/mnist/
 
