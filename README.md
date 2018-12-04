@@ -1,8 +1,7 @@
-# emergingTechAssignments
-Emerging Technologies Assignments
+# Emerging Technologies Assignment
 
-
-How to use Python - 
+***
+* How to use Python - 
 
 Install Anaconda:
 1. Visit https://www.anaconda.com/download/
@@ -16,7 +15,7 @@ Install Anaconda:
 	conda install scikit-learn
 	conda install -c anaconda keras
 
-Run Jupyter Notebook:
+* Run Jupyter Notebook:
 1. Once Anaconda has been successfully installed it gives you access to a web application called Jupyter Notebook.
 2. To run this you enter the designated directory or folder and in the cmd/cmnder console type jupyter notebook and press enter, the application will then open in the default browser.
 3. Being a web app it requires a secure internet connection.
@@ -26,7 +25,7 @@ Run Jupyter Notebook:
 7. Do this by clicking on the kernel button on the menu and select restart and run all.
 
 
-Run Python Script: 
+* Run Python Script: 
 1.  In the folder that contains the script type into the command line - python digitrec.py 
 2.  After a short time you will eventually be presented with the menu.
 3.  If you have a model made press 1 and enter the name.
@@ -41,7 +40,7 @@ Run Python Script:
 12. You can use option 1 to use the previously saved model rather than creating a new one. All models withold the same parameters,
 13. Press option 7 to exit and close the menu
 
-Links Used:
+* Links Used:
 
 Anaconda:
 
